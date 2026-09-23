@@ -1,0 +1,74 @@
+[
+  {
+    "title": "SoccerTraining",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/soccer.png",
+    "url": "https://github.com/MedYoussefS/SoccerTraining",
+    "description": "SoccerTraining helps football players improve through structured video sessions for passing, shooting, dribbling, and fitness. A custom JSON database organizes video titles and YouTube links for fast, intuitive navigation.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "NurHub",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/nurhub.png",
+    "url": "https://github.com/MedYoussefS/NurHub",
+    "description": "NurHub supports Muslims in their daily religious practice with prayer times, prayer guidance, Quran and Hadith access online and offline, Tafsir, a Tasbih counter, and a Hijri calendar.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "PSDonation",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/ps.png",
+    "url": "https://github.com/MedYoussefS/PSDonation",
+    "description": "PSDonation raises awareness and supports donations for Palestinians through historical information, an interactive map, and curated verified donation links.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "SoundBoardMobile",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/sounds.png",
+    "url": "https://github.com/MedYoussefS/SoundBoard",
+    "description": "SoundBoardMobile is a fun, lightweight application with multiple soundboards organized into categories for quick, simple entertainment.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "Trading App",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/trade.png",
+    "url": "https://github.com/MedYoussefS/Trading-App",
+    "description": "TradingForAhmed is a personalized trading application that tracks stocks and currencies in real time through a freemium API and provides basic market-analysis features.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "BooksReader",
+    "category": "Mobile Application",
+    "image": "images/portfolio/gallery/books.png",
+    "url": "https://github.com/MedYoussefS/Books-Reader",
+    "description": "BooksReader organizes large PDF collections by automatically extracting metadata and covers. It supports local and website imports, plus AI-powered text-to-speech and translation through Python and Chaquopy.",
+    "tags": ["Android Development"]
+  },
+  {
+    "title": "Ma7leek",
+    "category": "E-commerce Platform",
+    "image": "images/portfolio/gallery/IMG_0522.png",
+    "url": "https://ma7leek.com",
+    "description": "Ma7leek is a fully functional e-commerce clothing platform with user accounts, a loyalty and reward system, product customization through an integrated designer, and dynamic discount logic.",
+    "tags": ["Web Development", "E-commerce"]
+  },
+  {
+    "title": "ATLAS - WORLD MAP",
+    "category": "Web Application",
+    "image": "images/portfolio/gallery/atlas.png",
+    "url": "https://atlastn.freedev.app/",
+    "description": "World-Map is an interactive vibe-coded web application that displays all countries on a global map. Clicking a country reveals detailed information.",
+    "tags": ["Web Development", "Interactive Map"]
+  },
+  {
+    "title": "Club Privileges API Exposure",
+    "category": "Security Research",
+    "image": "images/portfolio/gallery/clubpr.png",
+    "url": "https://github.com/MedYoussefS/CLUB-PRIVILEGES-API-EXPOSURE-CLOSED",
+    "description": "I identified a Broken Object Level Authorization (BOLA) vulnerability in Club Privileges' email-viewing API. By knowing or enumerating a sequential ticket ID, an unauthenticated user could access the email address associated with any customer record, including past and future records. I responsibly reported the issue to the technical support team, and they resolved it.",
+    "tags": ["Cybersecurity", "BOLA", "Responsible Disclosure"]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "title": "Institut Supérieur des Technologies de l’Information et de la Communication",
+      "subtitle": "Bachelor of Science in Computer Systems & Network Engineering, Computer Systems Networking and Telecommunications",
+      "date": "Aug 2026 – Present",
+      "description": "Skills: Networking, Information Systems, Cloud Computing, and more."
+    },
+    {
+      "title": "Institut Bourguiba des Langues Vivantes de Tunis - IBLV",
+      "subtitle": "English Language and Literature, General",
+      "date": "2022 – 2025",
+      "description": "Grade: B2. Skills: English as a Second Language (ESL), English."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Cisco Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "date": "Issued Aug 2026",
+      "credentialUrl": "https://www.credly.com/badges/7656face-b1eb-496f-9c9c-bad6161d96b5"
+    },
+    {
+      "title": "Introduction to CIP",
+      "issuer": "OPSWAT Academy",
+      "date": "Issued Aug 2026",
+      "credentialUrl": "https://learn.opswatacademy.com/certificate/Ridtbe1Jfw"
+    }
+  ]
+}

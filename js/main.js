@@ -271,6 +271,55 @@
     }; // end ssProjects
 
 
+   /**
+    * Builds Education and Certifications & Awards from resume.json.
+    */
+    const ssResume = async function() {
+
+        const educationTimeline = document.querySelector('#education-timeline');
+        const certificationsTimeline = document.querySelector('#certifications-timeline');
+
+        if (!(educationTimeline && certificationsTimeline)) return;
+
+        const escapeHtml = function(value) {
+            return String(value).replace(/[&<>'"]/g, function(character) {
+                return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character];
+            });
+        };
+        const timelineBlock = function(item, details) {
+            return `<div class="timeline__block">
+                <div class="timeline__bullet"></div>
+                <div class="timeline__header">
+                    <h4 class="timeline__title">${escapeHtml(item.title)}</h4>
+                    <h5 class="timeline__meta">${escapeHtml(item.subtitle || item.issuer)}</h5>
+                    <p class="timeline__timeframe">${escapeHtml(item.date)}</p>
+                </div>
+                ${details}
+            </div>`;
+        };
+
+        try {
+            const response = await fetch('resume.json');
+            if (!response.ok) throw new Error('Unable to load resume.json');
+
+            const resume = await response.json();
+            educationTimeline.innerHTML = resume.education.map(function(item) {
+                return timelineBlock(item, `<div class="timeline__desc"><p>${escapeHtml(item.description)}</p></div>`);
+            }).join('');
+            certificationsTimeline.innerHTML = resume.certifications.map(function(item) {
+                const url = escapeHtml(item.credentialUrl);
+                return timelineBlock(item, `<div class="timeline__desc"><p><a href="${url}" target="_blank" rel="noopener noreferrer">View credential</a></p></div>`);
+            }).join('');
+        } catch (error) {
+            const message = '<p>Timeline entries could not be loaded. Please serve this site through a local web server.</p>';
+            educationTimeline.innerHTML = message;
+            certificationsTimeline.innerHTML = message;
+            console.error(error);
+        }
+
+    }; // end ssResume
+
+
    
     const ssAlertBoxes = function() {
 
@@ -344,6 +393,7 @@
         ssScrollSpy();
         ssViewAnimate();
         ssProjects();
+        ssResume();
         ssAlertBoxes();
         ssMoveTo();
 

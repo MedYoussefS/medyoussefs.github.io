@@ -70,5 +70,13 @@
     "url": "https://github.com/MedYoussefS/CLUB-PRIVILEGES-API-EXPOSURE-CLOSED",
     "description": "I identified a Broken Object Level Authorization (BOLA) vulnerability in Club Privileges' email-viewing API. By knowing or enumerating a sequential ticket ID, an unauthenticated user could access the email address associated with any customer record, including past and future records. I responsibly reported the issue to the technical support team, and they resolved it.",
     "tags": ["Cybersecurity", "BOLA", "Responsible Disclosure"]
+  },
+  {
+    "title": "Farha Time",
+    "category": "Web Application",
+    "image": "images/portfolio/gallery/farhatime.png",
+    "url": "https://farha-time.com/",
+    "description": "Farha Time is a modern e-commerce website designed for wedding and celebration essentials. It offers a curated selection of products for weddings, henna ceremonies, Thour, and newborn celebrations, with an intuitive shopping experience that makes discovering and ordering special occasion items simple and enjoyable.",
+    "tags": ["Web Development", "E-commerce"]
   }
 ]

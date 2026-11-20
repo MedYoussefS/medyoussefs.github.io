@@ -56,14 +56,6 @@
     "tags": ["Web Development", "E-commerce"]
   },
   {
-    "title": "ATLAS - WORLD MAP",
-    "category": "Web Application",
-    "image": "images/portfolio/gallery/atlas.png",
-    "url": "https://atlastn.freedev.app/",
-    "description": "World-Map is an interactive vibe-coded web application that displays all countries on a global map. Clicking a country reveals detailed information.",
-    "tags": ["Web Development", "Interactive Map"]
-  },
-  {
     "title": "Club Privileges API Exposure",
     "category": "Security Research",
     "image": "images/portfolio/gallery/clubpr.png",

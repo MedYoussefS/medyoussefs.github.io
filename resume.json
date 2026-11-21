@@ -31,6 +31,12 @@
       "issuer": "ADB International Group Inc (ADBI)",
       "date": "Issued Nov 2026",
       "credentialUrl": "https://elearning-adbi.org/certificate-verifier/?code=217763-179-500-5122"
+    },
+    {
+      "title": "Networking Basics - Cisco",
+      "issuer": "Cisco Networking Academy",
+      "date": "Issued Nov 2026",
+      "credentialUrl": "https://www.credly.com/badges/b17e5693-28b0-4df6-b81a-da4109a34a40"
     }
   ]
 }

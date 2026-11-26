@@ -56,11 +56,11 @@
     "tags": ["Web Development", "E-commerce"]
   },
   {
-    "title": "Club Privileges API Exposure",
+    "title": "API Exposure In Tunisian Company",
     "category": "Security Research",
-    "image": "images/portfolio/gallery/clubpr.png",
-    "url": "https://github.com/MedYoussefS/CLUB-PRIVILEGES-API-EXPOSURE-CLOSED",
-    "description": "I identified a Broken Object Level Authorization (BOLA) vulnerability in Club Privileges' email-viewing API. By knowing or enumerating a sequential ticket ID, an unauthenticated user could access the email address associated with any customer record, including past and future records. I responsibly reported the issue to the technical support team, and they resolved it.",
+    "image": "images/portfolio/gallery/apiexposure.png",
+    "url": "",
+    "description": "I identified a Broken Object Level Authorization (BOLA) vulnerability in Tunisian Company' email-viewing API. By knowing or enumerating a sequential ticket ID, an unauthenticated user could access the email address associated with any customer record, including past and future records. I responsibly reported the issue to the technical support team, and they resolved it.",
     "tags": ["Cybersecurity", "BOLA", "Responsible Disclosure"]
   },
   {

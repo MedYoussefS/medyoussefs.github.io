@@ -58,7 +58,7 @@
   {
     "title": "API Exposure Vulnerability Discovered",
     "category": "Security Research",
-    "image": "images/portfolio/gallery/apiexposure.jpg",
+    "image": "images/portfolio/gallery/apiexposure.png",
     "url": "https://github.com/MedYoussefS/API-EXPOSURE-TICKET-SYSTEM-VULNERABILITY-POC",
     "description": "I Identified a Broken Object Level Authorization (BOLA) vulnerability in a Tunisian consumer platform's support-ticket API. By enumerating sequential ticket IDs, an unauthenticated user could retrieve the email address tied to any customer record. Reported responsibly; resolved by the vendor.",
     "tags": ["Cybersecurity", "BOLA", "Responsible Disclosure"]

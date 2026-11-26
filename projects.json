@@ -60,7 +60,7 @@
     "category": "Security Research",
     "image": "images/portfolio/gallery/apiexposure.png",
     "url": "",
-    "description": "I identified a Broken Object Level Authorization (BOLA) vulnerability in Tunisian Company' email-viewing API. By knowing or enumerating a sequential ticket ID, an unauthenticated user could access the email address associated with any customer record, including past and future records. I responsibly reported the issue to the technical support team, and they resolved it.",
+    "description": "Identified a Broken Object Level Authorization (BOLA) vulnerability in a Tunisian consumer platform's support-ticket API. By enumerating sequential ticket IDs, an unauthenticated user could retrieve the email address tied to any customer record. Reported responsibly; resolved by the vendor.",
     "tags": ["Cybersecurity", "BOLA", "Responsible Disclosure"]
   },
   {

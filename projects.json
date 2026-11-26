@@ -70,5 +70,15 @@
     "url": "https://farha-time.com/",
     "description": "Farha Time is a modern e-commerce website designed for wedding and celebration essentials. It offers a curated selection of products for weddings, henna ceremonies, Thour, and newborn celebrations, with an intuitive shopping experience that makes discovering and ordering special occasion items simple and enjoyable.",
     "tags": ["Web Development", "E-commerce"]
-  }
+  },
+  {
+    "title": "5 Vulnerabilities Discovered In One Server Exposed",
+    "category": "Security Research",
+    "image": "images/portfolio/gallery/sec.png",
+    "url": "https://github.com/MedYoussefS/5-VULNERABILITIES-IN-ONE-SERVER",
+    "description": "five vulnerabilities i discovered during independent security research on externally-facing systems, reported through responsible disclosure. Identifying details (hostnames, IP addresses, organization names) have been redacted from this public writeup; unredacted reports with full target details were sent directly to the affected parties.",
+    "tags": ["Cybersecurity", "Authentication Bypass", "Broken Access Control", "Security Misconfiguration", "Attack Surface" ,"Responsible Disclosure"]
+  },
+
+
 ]

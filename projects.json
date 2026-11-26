@@ -78,7 +78,5 @@
     "url": "https://github.com/MedYoussefS/5-VULNERABILITIES-IN-ONE-SERVER",
     "description": "five vulnerabilities i discovered during independent security research on externally-facing systems, reported through responsible disclosure. Identifying details (hostnames, IP addresses, organization names) have been redacted from this public writeup; unredacted reports with full target details were sent directly to the affected parties.",
     "tags": ["Cybersecurity", "Authentication Bypass", "Broken Access Control", "Security Misconfiguration", "Attack Surface" ,"Responsible Disclosure"]
-  },
-
-
+  }
 ]
